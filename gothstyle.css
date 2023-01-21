@@ -31,6 +31,10 @@ h1,h2,h3 {
     line-height: normal;
 }
 
+ul {
+    padding-left: 1.2em;
+}
+
 table{
     table-layout: auto;
     border-collapse: collapse;
