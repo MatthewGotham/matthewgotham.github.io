@@ -83,3 +83,22 @@ table .absorbing-column {
 .collapsibleList label {
  cursor: pointer;
 }
+
+.aleft {text-align: left;}
+.aright {text-align: right;}
+.acenter {text-align: center;}
+
+.ctaTable {
+    width: initial;
+    border-collapse: separate;
+    /* border-spacing: 30px; */
+}
+
+.ctaTable th {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.ctaTable td {
+    text-align: center;
+}
