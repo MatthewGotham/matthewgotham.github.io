@@ -35,3 +35,20 @@ ul {
 .myTable td {
     text-align: center;
 }
+
+
+#T_summary th:nth-child(1) {
+    text-align: left;
+}
+
+#T_summary td:nth-child(3) {
+    text-align: center;
+}
+
+#T_summary td:nth-child(6) {
+    text-align: center;
+}
+
+#T_summary td:nth-child(9) {
+    text-align: center;
+}
