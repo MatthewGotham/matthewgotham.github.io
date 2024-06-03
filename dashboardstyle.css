@@ -1,0 +1,90 @@
+/*Sections*/
+body {
+	font-family: "Fira Sans", Verdana, Helvetica, Arial, sans-serif;
+    /*text-align:justify;
+    line-height: 1.75;*/
+    hyphens:auto;
+}
+
+nav,main {
+	float: left;
+}
+
+nav {
+	height: 100%;
+	position: fixed;
+	padding-top: 5%;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #eeeeee;
+    font-size: larger;
+    border: none;
+}
+
+main {
+	padding-left:120px; /* fallback */
+	padding-left:max(120px, 20%);
+	max-width:600px;
+}
+
+h1,h2,h3 {
+    line-height: normal;
+}
+
+ul {
+    padding-left: 1.2em;
+}
+
+.container {
+  display: flex;
+}
+
+.container.space-around {
+  justify-content: space-around;
+}
+
+.container.space-between {  
+  justify-content: space-between;
+}
+
+.collapsibleList {
+    margin-top:-16px;
+    line-height: 1.4;
+	text-align:right;
+    list-style-type:none;
+}
+ 
+.collapsibleList li > input + * {
+ display: none;
+}
+ 
+.collapsibleList li > input:checked + * {
+ display: block;
+}
+
+.collapsibleList li > input {
+ display: none;
+}
+
+.collapsibleList label {
+ cursor: pointer;
+}
+
+.aleft {text-align: left;}
+.aright {text-align: right;}
+.acenter {text-align: center;}
+
+.ctaTable {
+    width: initial;
+    border-collapse: separate;
+    /* border-spacing: 30px; */
+}
+
+.ctaTable th {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.ctaTable td {
+    text-align: center;
+}
