@@ -41,14 +41,14 @@ ul {
     text-align: left;
 }
 
-#T_summary td:nth-child(3) {
+#T_summary td:nth-child(4) {
     text-align: center;
 }
 
-#T_summary td:nth-child(6) {
+#T_summary td:nth-child(7) {
     text-align: center;
 }
 
-#T_summary td:nth-child(9) {
+#T_summary td:nth-child(10) {
     text-align: center;
 }
