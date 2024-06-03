@@ -37,25 +37,38 @@ ul {
 }
 
 
+#T_summary {
+    border: 1px solid;
+}
+
+#T_summary thead {
+    border-bottom: 1px solid;
+}
+
 #T_summary thead th:nth-child(4) {
+    border-right: 1px solid;
     padding-right: 10px;
 }
 
 #T_summary thead th:nth-child(7) {
+    border-right: 1px solid;
     padding-right: 10px;
 }
 
 #T_summary tbody th {
+    border-right: 1px solid;
     padding-right: 10px;
     text-align: left;
 }
 
 #T_summary td:nth-child(4) {
     text-align: center;
+    border-right: 1px solid;
 }
 
 #T_summary td:nth-child(7) {
     text-align: center;
+    border-right: 1px solid;
 }
 
 #T_summary td:nth-child(10) {
