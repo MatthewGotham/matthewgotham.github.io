@@ -39,6 +39,7 @@ ul {
 
 #T_summary {
     border: 1px solid;
+    line-height: normal
 }
 
 #T_summary thead {
