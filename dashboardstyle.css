@@ -37,7 +37,16 @@ ul {
 }
 
 
-#T_summary th:nth-child(1) {
+#T_summary thead th:nth-child(4) {
+    padding-right: 10px;
+}
+
+#T_summary thead th:nth-child(7) {
+    padding-right: 10px;
+}
+
+#T_summary tbody th {
+    padding-right: 10px;
     text-align: left;
 }
 
