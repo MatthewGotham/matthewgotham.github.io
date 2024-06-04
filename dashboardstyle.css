@@ -71,6 +71,7 @@ ul {
 }
 
 #T_summary tbody th {
+    font-weight: normal;
     text-align: left;
     padding-right: 5px;
     border-right: 1px solid;
