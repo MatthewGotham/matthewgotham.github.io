@@ -1,11 +1,40 @@
 # -*- coding: utf-8 -*-
 """
-A script to convert all the markdown files in this folder to html.
+A script to convert all the markdown files in this folder to html. We
+need two versions: one for the general blog page, and one for the
+standalone post page.
 @author: Matthew Gotham
 """
 
 import os
 import markdown
+
+blog_opening = """<html lang="en-GB">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../../gothstyle.css">
+        <base target="_blank">
+        <title>Matthew Gotham: Blog</title>
+    </head>
+
+    <body>
+        <nav>
+            <p><a href="../.." target="_self">Home</a></p>
+            <p><a href=".." target="_self">Blog</a></p>
+            <p><a href="../../linguistics" target="_self">Linguistics</a></p>
+        </nav>
+
+        <main>
+            <h1>Matthew Gotham</h1>
+            <h2>Blog</h2>
+            <hr>
+"""
+
+blog_closing = """
+        </main>
+    </body>
+</html>
+"""
 
 to_convert = [f for f in os.listdir('.') if f.endswith('md')
               and f"{f.split()[:-3]}.html" not in os.listdir('.')]
@@ -14,8 +43,16 @@ for md_filename in to_convert:
     with open(md_filename, 'r') as md_file:
         md = md_file.read()
         # \This/ is the conversion step.
-        html = markdown.markdown(md)
-        # Write html.
+        html_minimal = markdown.markdown(md) # just the markdown conversion
         html_filename = f"{md_filename[:-3]}.html"
+        link = f'./posts/{html_filename}'
+        html_raw = html_minimal.replace('>', f'><a href="{link}">', 1)
+        html_raw = html_raw.replace('</', '</a></', 1) # href in the title
+        html = blog_opening+html_minimal+blog_closing # individual post
+        # Write html.
+        html_filename = f"{md_filename[:-3]}.html" # individual post
         with open(html_filename, 'w') as html_file:
             html_file.write(html)
+        raw_filename = f"{md_filename[:-3]}_raw.html"
+        with open(raw_filename, 'w') as raw_file:
+            raw_file.write(html_raw)
