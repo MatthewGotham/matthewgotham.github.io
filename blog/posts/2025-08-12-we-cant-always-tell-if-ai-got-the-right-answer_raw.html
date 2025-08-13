@@ -1,22 +1,3 @@
-<html lang="en-GB">
-    <head>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="../gothstyle.css">
-        <base target="_blank">
-        <title>Matthew Gotham: Blog</title>
-    </head>
-
-    <body>
-        <nav>
-            <p><a href=".." target="_self">Home</a></p>
-            <p>Blog</p>
-            <p><a href="../linguistics" target="_self">Linguistics</a></p>
-        </nav>
-
-        <main>
-            <h1>Matthew Gotham</h1>
-            <h2>Blog</h2>
-            <hr>
 <h3><a href="./posts/2025-08-12-we-cant-always-tell-if-ai-got-the-right-answer.html">We Can&rsquo;t Always Tell if AI Got the Right Answer</a></h3>
 <p>I suppose it isn&rsquo;t news to anyone that US President Donald Trump loves tariffs, and that announcements and discussion concerning tariffs have caused all sorts of perturbations across various markets since his election. In this post I&rsquo;m going to focus on market perturbations surrounding copper tariff-related annoucements and ask: did an AI respond correctly to discussion concerning copper tariffs, without anyone noticing?</p>
 <h4>Background</h4>
@@ -97,46 +78,4 @@ this.src=&rsquo;../arb_aug.png&rsquo;;"
 <p>In one sense, no: there is no specific exemption for Chile. In another sense, yes: imports of refined copper from Chile won&rsquo;t be tariffed. It was <em>that</em> belief that caused the copper price to drop over 3.25% in the space of a minute on 28 July, and <em>if you had traded on that belief at any point before the big reveal on 30 July, you would have made money</em>. What more could you want from a financial news AI?</p>
 <p>Suppose we accept that the AI was &lsquo;right&rsquo;, in the latter sense. Was it right for the right reasons? Had it somehow, reading between the lines in an inscrutable way, understood that Mario Marcel indeed expected Chilean copper not to be subjected to US tariffs? <em>Did</em> Marcel expect that?</p>
 <p>Questions like this are going to keep arising as we become more reliant on AIs, because the reasons why they produce the outputs they do are often near-impossible to discern with any certainty: witness the not-very-confidence-inspiring <a href="https://x.com/grok/status/1943916977481036128">explanation</a> given for what caused Grok to become &lsquo;MechaHitler&rsquo; for a day. I will stick my neck out and say that whatever caused Bloomberg&rsquo;s AI to report that Mario Marcel &lsquo;expected&rsquo; a copper tariff exception for Chile, it&rsquo;s not that it wasn&rsquo;t able to translate &lsquo;esperamos&rsquo;. The explanation must be something else.</p>
-<div style="text-align:right;font-style:italic">12 August 2025</div><hr><h3><a href="./posts/2025-04-19-impact-of-nhs-child-mortality.html">The Impact of the NHS on Child Mortality and Life Expectancy</a></h3>
-<p>One of my relatives shared this photo, from the end of a production of <a href="https://en.wikipedia.org/wiki/Nye_(play)">Nye</a> that she saw at the National Theatre, with the family WhatsApp group:</p>
-<p><img src="Nye_curtain.jpg" style="max-width:600px;"
-alt="Curtain from production of &rsquo;Nye&rsquo;, text: &rsquo;Within 10 years of the creation of the NHS, infant mortality decreased by 50%. Since its founding, life expectancy has increased by 23 years&rsquo;."
-onerror="this.onerror=null;
-this.src=&rsquo;../Nye_curtain.jpg&rsquo;;"
-/></p>
-<p>Given that I&rsquo;ve looked into the mortality rates in England and Wales <a href="./posts/2023-02-28-data-science-bootcamp-reports.html">before</a>, I thought I&rsquo;d be able to put these figures into context.</p>
-<h4>Infant Mortality</h4>
-<p>First of all, the infant mortality rate. Here&rsquo;s a scatter plot showing all the figures available in the <a href="https://www.mortality.org/Country/Country?cntr=GBRCENW">Human Mortality Database</a> for deaths under the age of 1 in England &amp; Wales:</p>
-<p><img src="infant_mortality_rate.png" style="max-width:600px;"
-alt="Chart showing the infant mortality rate in England & Wales from 1841"
-onerror="this.onerror=null;
-this.src=&rsquo;../infant_mortality_rate.png&rsquo;;"
-/></p>
-<p>We can see that a really precipitous decline in infant mortality began at the turn of the 20th century, due (I think) to breakthroughs in the understanding of hygiene. Has the founding of the NHS in 1948 had a noticeable effect on that trajectory? There does seem to be a secondary drop-off in the late 1940s, which the following chart hopefully makes clearer:</p>
-<p><img src="infant_mortality_rate_decay.png" style="max-width:600px;"
-alt="Chart showing the infant mortality rate in England & Wales from 1841, with exponential decay curves"
-onerror="this.onerror=null;
-this.src=&rsquo;../infant_mortality_rate_decay.png&rsquo;;"
-/></p>
-<p>The infant mortality rate dropped by 45% from 1947 to 1957, so the first statistic on the theatre curtain is... close enough to the truth, I think. Looking at the data in terms of exponential decay since the turn of the century, in 1948 the decrease in infant mortality got back onto the trajectory it was on in 1930. Maybe we should be thinking more about what happened in the period 1931&ndash;1947...?</p>
-<h4>Life Expectancy</h4>
-<p>Here&rsquo;s a plot of the life expectancy figures, from the same source:</p>
-<p><img src="life_expectancy.png" style="max-width:600px;"
-alt="Chart showing life expectancy at birth in England & Wales from 1841"
-onerror="this.onerror=null;
-this.src=&rsquo;../life_expectancy.png&rsquo;;"
-/></p>
-<p>Over the first 100 years of the data set, life expectancy for both men and women shows quadratic growth (which is what the lines plot), but this trend seems to change in the early 1950s. While it&rsquo;s true that life expectancy has increased by about 12 years since the founding of the NHS in 1948, if you looked at the chart above and were asked what happened in the late 1940s, you would have to say that something <em>slowed</em> the rate of increase in life expectancy!</p>
-<h4>Conclusion</h4>
-<p>Of course, I don&rsquo;t think the NHS can blamed for the fact that female life expectancy in England &amp; Wales isn&rsquo;t 125 yet, which is what the 1840s&ndash;1940s trend would have led to. I <em>also</em> don&rsquo;t think it can be credited for what increase in life expectancy there has been since 1948; and I&rsquo;m not sure about the decrease in infant mortality, either. To get a better idea, the next step would be to do a comparison between E&amp;W and another country with similar figures in the 1840s&ndash;1940s period.</p>
-<p>The code for producing these charts is available in the connected <a href="https://github.com/MatthewGotham/deaths-England-Wales">GitHub Repository</a>.</p>
-<div style="text-align:right;font-style:italic">19 April 2025</div><hr><h3><a href="./posts/2023-02-28-data-science-bootcamp-reports.html">Data Science Bootcamp Reports</a></h3>
-<p>Here are some explaratory data analyses that I wrote for my <a href="https://blog.hyperiondev.com/wp-content/uploads/2022/10/Data-Science-Syllabus-DfE.pdf">skills bootcamp in data science</a>, funded by the Department for Education and run by HyperionDev/Imperial College London:</p>
-<ul>
-<li>An <a href="./automobile_EDA.pdf">analysis</a> of data from Ward&rsquo;s Automotive Yearbook 1985 (available from Kaggle <a href="https://www.kaggle.com/datasets/toramky/automobile-dataset">here</a>).</li>
-<li>An <a href="./E&W_death_rates_EDA.pdf">analysis</a> of death rates in England and Wales from 1841 to 2020.</li>
-</ul>
-<p>I completed the course in February 2023. You can view my portfolio <a href="https://www.hyperiondev.com/portfolio/103618/">here</a>.</p><hr>
-        </main>
-    </body>
-</html>
+<div style="text-align:right;font-style:italic">12 August 2025</div>

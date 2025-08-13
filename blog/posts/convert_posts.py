@@ -37,18 +37,22 @@ blog_closing = """
 """
 
 to_convert = [f for f in os.listdir('.') if f.endswith('md')
-              and f"{f.split()[:-3]}.html" not in os.listdir('.')]
+              and f"{f[:-3]}.html" not in os.listdir('.')]
 # Read markdown.
 for md_filename in to_convert:
+    print(f"Converting {md_filename}", end='... ')
     with open(md_filename, 'r') as md_file:
         md = md_file.read()
         # \This/ is the conversion step.
-        html_minimal = markdown.markdown(md) # just the markdown conversion
+        html_minimal = markdown.markdown(md).replace("`", "&lsquo;"
+                                                     ).replace("'", "&rsquo;")
         html_filename = f"{md_filename[:-3]}.html"
         link = f'./posts/{html_filename}'
-        html_raw = html_minimal.replace('>', f'><a href="{link}">', 1)
-        html_raw = html_raw.replace('</', '</a></', 1) # href in the title
-        html = blog_opening+html_minimal+blog_closing # individual post
+        # Hyperlink in the title:
+        html_raw = html_minimal.replace('>', f'><a href="{link}">',
+                                        1).replace('</', '</a></', 1)
+        # Individual post:
+        html = blog_opening+html_minimal+blog_closing
         # Write html.
         html_filename = f"{md_filename[:-3]}.html" # individual post
         with open(html_filename, 'w') as html_file:
@@ -56,3 +60,4 @@ for md_filename in to_convert:
         raw_filename = f"{md_filename[:-3]}_raw.html"
         with open(raw_filename, 'w') as raw_file:
             raw_file.write(html_raw)
+    print("complete.")
