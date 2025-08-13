@@ -5,8 +5,7 @@ One of my relatives shared this photo, from the end of a production of [Nye](htt
 <img src="Nye_curtain.jpg" style="max-width:600px;"
 alt="Curtain from production of 'Nye', text: 'Within 10 years of the creation of the NHS, infant mortality decreased by 50%. Since its founding, life expectancy has increased by 23 years'."
 onerror="this.onerror=null;
-this.src='../Nye_curtain.jpg';"
-/>
+this.src='../Nye_curtain.jpg';">
 
 Given that I&rsquo;ve looked into the mortality rates in England and Wales [before](./posts/2023-02-28-data-science-bootcamp-reports.html), I thought I&rsquo;d be able to put these figures into context.
 
@@ -17,16 +16,14 @@ First of all, the infant mortality rate. Here&rsquo;s a scatter plot showing all
 <img src="infant_mortality_rate.png" style="max-width:600px;"
 alt="Chart showing the infant mortality rate in England & Wales from 1841"
 onerror="this.onerror=null;
-this.src='../infant_mortality_rate.png';"
-/>
+this.src='../infant_mortality_rate.png';">
 
 We can see that a really precipitous decline in infant mortality began at the turn of the 20th century, due (I think) to breakthroughs in the understanding of hygiene. Has the founding of the NHS in 1948 had a noticeable effect on that trajectory? There does seem to be a secondary drop-off in the late 1940s, which the following chart hopefully makes clearer:
 
 <img src="infant_mortality_rate_decay.png" style="max-width:600px;"
 alt="Chart showing the infant mortality rate in England & Wales from 1841, with exponential decay curves"
 onerror="this.onerror=null;
-this.src='../infant_mortality_rate_decay.png';"
-/>
+this.src='../infant_mortality_rate_decay.png';">
 
 The infant mortality rate dropped by 45% from 1947 to 1957, so the first statistic on the theatre curtain is... close enough to the truth, I think. Looking at the data in terms of exponential decay since the turn of the century, in 1948 the decrease in infant mortality got back onto the trajectory it was on in 1930. Maybe we should be thinking more about what happened in the period 1931&ndash;1947...?
 
@@ -37,8 +34,7 @@ Here&rsquo;s a plot of the life expectancy figures, from the same source:
 <img src="life_expectancy.png" style="max-width:600px;"
 alt="Chart showing life expectancy at birth in England & Wales from 1841"
 onerror="this.onerror=null;
-this.src='../life_expectancy.png';"
-/>
+this.src='../life_expectancy.png';">
 
 Over the first 100 years of the data set, life expectancy for both men and women shows quadratic growth (which is what the lines plot), but this trend seems to change in the early 1950s. While it&rsquo;s true that life expectancy has increased by about 12 years since the founding of the NHS in 1948, if you looked at the chart above and were asked what happened in the late 1940s, you would have to say that something *slowed* the rate of increase in life expectancy!
 

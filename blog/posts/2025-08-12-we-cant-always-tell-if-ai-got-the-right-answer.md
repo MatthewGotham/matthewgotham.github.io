@@ -29,10 +29,8 @@ The comparison with steel and alumin(i)um in Trump's remarks is important, becau
 
 Needless to say, these announcements had an effect on the price of copper in the United States. Globally, the two largest futures exchanges for copper are the [Chicago Mercantile Exchange](https://www.cmegroup.com/markets/metals/base/copper.settlements.html) and the [London Metal Exchange](https://www.lme.com/en/Metals/Non-ferrous/LME-Copper). Factors other than politicians' announcements can move the copper price, of course, so probably the simplest way to measure the effects of the Section 232 newsflow on the copper price is to look at the  difference between the Chicago (COMEX) and London (LME) prices. That's because metal flowing into warehouses to underpin COMEX contracts would be subject to US import tariffs (the warehouses are in the US), whereas metal underpinning LME contracts wouldn't. The following chart shows the premium of the COMEX copper price over the LME, for August settlement (i.e., the next month after the tariff was expected to come into effect), from the middle of 2024 to the close on 27 July 2025.
 
-<img src="arb_aug_prelim.png" style="max-width:600px;"
+<img src="/blog/images/arb_aug_prelim.png" style="max-width:600px;"
 alt="COMEX/LME copper arbitrage, August 2025 delivery, July 2024 to 27 July 2025."
-onerror="this.onerror=null;
-this.src='../arb_aug_prelim.png';"
 />
 
 As you can see, the COMEX premium never quite got up to 50%, but Trump's statement about how he was \`going to make it 50%' in particular widened the gap substantially. It had already been building since late 2024, as rumours of the Section 232 investigation had been circulating before it was official.
@@ -49,10 +47,8 @@ About 10 minutes later, another newsflash came through:
 
 In the meantime, this is what happened to the COMEX copper price:
 
-<img src="bbgnews.png" style="max-width:600px;"
+<img src="/blog/images/bbgnews.png" style="max-width:600px;"
 alt="COMEX copper price, August 2025 delivery, 10:00 to 11:00 on 28 July 2025."
-onerror="this.onerror=null;
-this.src='../bbgnews.png';"
 />
 
 Chile produces the most copper of any country in the world. An exemption for imports from Chile would neutralize any effect of tariffs on the price. It would also rather seem to undermine the goal of \`bringing copper production home'.
@@ -73,10 +69,8 @@ But there was nothing there to justify the description of this hope, or even opt
 
 So, why had an expectation been reported? The answer came in a Bloomberg news roundup the next day:
 
-<img src="bbg_summary.png" style="max-width:600px;"
+<img src="/blog/images/bbg_summary.png" style="max-width:600px;"
 alt="Bloomberg News: Goldman says Trump's minerals diplomacy poses copper risks."
-onerror="this.onerror=null;
-this.src='../bbg_summary.png';"
 />
 
 Bloomberg's AI had somehow inferred... hallucinated?... that Marcel _expected_ a tariff exemption for Chile. At this point, the moral of the story seemed to be that we all (not least Bloomberg) should learn lessons about over-reliance on AI, and maybe sympathise with anyone who lost money on intra-day trading on 28 July, until...
@@ -89,10 +83,8 @@ True to the expected timeframe, Trump made a [proclamation](https://www.whitehou
 
 Refined copper was _not_ going to be subjected to a 50% import tariff after all, or indeed any tariff until 2027 (if then). So, the continuation of the COMEX/LME arbitrage chart above now looks like this:
 
-<img src="arb_aug.png" style="max-width:600px;"
+<img src="/blog/images/arb_aug.png" style="max-width:600px;"
 alt="COMEX/LME copper arbitrage, August 2025 delivery, July 2024 to 11 August 2025."
-onerror="this.onerror=null;
-this.src='../arb_aug.png';"
 />
 
 I trust that I don't need to draw any vertical lines on this chart. All that COMEX premium, built up over the space of over six months, was wiped out in one fell swoop.
