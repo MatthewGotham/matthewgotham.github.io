@@ -79,7 +79,11 @@ Bloomberg's AI had somehow inferred... hallucinated?... that Marcel _expected_ a
 
 True to the expected timeframe, Trump made a [proclamation](https://www.whitehouse.gov/presidential-actions/2025/07/adjusting-imports-of-copper-into-the-united-states/) on 30 July on \`adjusting imports of copper into the United States'. However, the substance of the proclamation was _not_ true to expectations:
 
-> the Secretary recommended an immediate universal 30 percent import duty on semi-finished copper products and intensive copper derivative products.  The Secretary also recommended a phased universal tariff on refined copper of 15 percent starting in 2027 and 30 percent starting in 2028.
+> the Secretary recommended an immediate universal 30 percent import duty on semi-finished copper products and intensive copper derivative products.  The Secretary also recommended a phased universal tariff on refined copper of 15 percent starting in 2027 and 30 percent starting in 2028...
+> 
+> Except as otherwise provided in this proclamation, all imports of semi-finished copper products and intensive copper derivative products, as set forth in the Annex to this proclamation, shall be subject to a 50 percent tariff...
+> 
+> By June 30, 2026, the Secretary shall provide the President with an update on domestic copper markets, including refining capacity and the market for refined copper in the United States, so that the President may determine whether imposing a phased universal import duty on refined copper of 15 percent starting on January 1, 2027, and 30 percent starting on January 1, 2028, as recommended by the June 30, 2025, report, is warranted to ensure that copper imports do not continue to threaten to impair the national security.
 
 Refined copper was _not_ going to be subjected to a 50% import tariff after all, or indeed any tariff until 2027 (if then). So, the continuation of the COMEX/LME arbitrage chart above now looks like this:
 
